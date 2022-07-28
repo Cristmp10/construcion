@@ -1,0 +1,21 @@
+construccion
+
+sitio webcon 5 paginas como minimo
+1) incio= pagina principal
+2. Productos/Servicios = Mostrar la descripción del Producto/Servicio
+3. Quienes somos - Valores y misión
+4. Ubicación - Direcciones físicas  y  mapas. Ejemplo si es restaurante puede tener varios locales.
+5. Contáctame = Iniciar sesión, crear cuenta/Redes Sociales
+
+
+
+En su página web debe reflejar de alguna manera los siguientes componentes:
+Menú de Opciones - Que sea navegable en todas sus páginas
+La información de acorde a su tema
+Listas
+Imágenes
+Video
+Tabla
+Formulario
+Mapa
+Publicación TIk tok o Twitter

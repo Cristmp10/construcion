@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 25px 0;
+    
+}
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+ 
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    
+}
+nav a{
+    
+    color: rgb(94, 90, 90);
+}
+nav a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+body {
+    background: linear-gradient(to right, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(../imagenes/body3.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section h2 {
+   
+    background-color: rgb(122, 128, 134);
+    color: white;
+    text-align: center;
+}
+
+.productos {
+    background-color: rgba(62, 112, 204, 0.384);
+    color: white;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20PX;
+    margin-top: 15px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px rgb(12, 11, 11);
+}
+
+
+
+.productos2 {
+    background-color: rgba(62, 112, 204, 0.384);
+    color: black;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20PX;
+    margin-top: 15px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px rgb(12, 11, 11);
+}
+
+
+
+.productos img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+
+}
+
+.productos img:hover {
+    filter: grayscale(0);
+}
+
+.titulo {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.parrafo {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    display: block;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+
+.btn:hover {
+    background-color: black;
+}
+
+.contenido {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer{
+    
+    
+    text-align: center;
+    padding: 25px 0;
+    
+
+}
+footer div nav ul li a{
+
+color: white;
+text-align: center;
+padding: 25px 0;
+
+
+}

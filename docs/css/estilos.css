@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 25px 0;
+    
+}
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+ 
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    
+}
+nav a{
+    
+    color: rgb(94, 90, 90);
+}
+nav a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: linear-gradient(to right, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(../imagenes/cabecera.jpg);
+    background-size: cover;
+    background-position: center;
+  
+   
+}
+
+.wrap-texto{
+    color: #fff;
+    text-align: center;
+    width: 50%;
+  
+    
+}
+.wrap-texto, form label{
+    text-align: left;
+   
+}
+
+
+
+.wrap-texto h1{
+    text-align: center;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    display: flex;
+}
+.wrap-texto h1:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.flexbox{
+    width: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
